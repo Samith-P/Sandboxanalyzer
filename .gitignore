@@ -1,0 +1,25 @@
+# Compiled executables
+sandbox_runner
+syscall
+hello
+test1
+target
+
+# Compiled object files
+*.o
+
+# Generated BPF skeleton
+syscall.bpf.skel.h
+
+# Runtime/generated output
+results/
+analysis_report.txt
+syscall_log.csv
+manual.csv
+
+# Test/runtime files
+test_file.txt
+
+# Python cache
+__pycache__/
+*.pyc
